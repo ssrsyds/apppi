@@ -136,7 +136,7 @@ export const usePromptStore = create<PromptStore>()(
       name: StoreKey.Prompt,
       version: 1,
       onRehydrateStorage(state) {
-        const PROMPT_URL = "https://wx.yjie.fun/prompts.json";
+        const PROMPT_URL = "./prompts.json";
 
         type PromptList = Array<[string, string]>;
 
