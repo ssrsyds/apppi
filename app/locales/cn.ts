@@ -1,10 +1,10 @@
 import { SubmitKey } from "../store/config";
 
 const cn = {
-  WIP: "该功能仍在开发中……",
+  WIP: "绘画联网正在筹划中……",
   Error: {
     Unauthorized:
-      "访问密码不正确或为空，请前往[设置](/#/settings)页输入正确的访问密码，或者填入你自己的 OpenAI API Key。",
+      "## ⛔ChatGPT公益版\n**任意任意！！联系客服打赏5-10元任意金额即可免费无次数限制，无期限使用（免费使用全部功能！）！！**\n## ⭐无期限无限制免费使用！！！\n-🧧[点击添加客服微信-领取邀请码](http://aai.yjie.fun/12.jpg)\n使用效果预览：[点击查看](http://47.115.219.124:8080/directlink/Ali/yulan.mp4)\n## 问题汇总\n> 添加客服微信领取：Yueyi_Wife\n功能反馈：2337971460\n\n![](http://aai.yjie.fun/12.jpg)",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 条对话`,
@@ -21,18 +21,18 @@ const cn = {
       Delete: "删除",
     },
     Rename: "重命名对话",
-    Typing: "正在输入…",
+    Typing: "正在输入ing…",
     Input: (submitKey: string) => {
       var inputHints = `${submitKey} 发送`;
       if (submitKey === String(SubmitKey.Enter)) {
         inputHints += "，Shift + Enter 换行";
       }
-      return inputHints + "，/ 触发补全";
+      return inputHints + "输入 / 自动续写";
     },
     Send: "发送",
     Config: {
-      Reset: "重置默认",
-      SaveAs: "另存为面具",
+      Reset: "清除记忆",
+      SaveAs: "存为应用",
     },
   },
   Export: {
@@ -90,11 +90,11 @@ const cn = {
     },
 
     Update: {
-      Version: (x: string) => `当前版本：${x}`,
-      IsLatest: "已是最新版本",
-      CheckUpdate: "检查更新",
-      IsChecking: "正在检查更新...",
-      FoundUpdate: (x: string) => `发现新版本：${x}`,
+      Version: (x: string) => `轻工具`,
+      IsLatest: "分享有用的轻工具",
+      CheckUpdate: "加载",
+      IsChecking: "加载中...",
+      FoundUpdate: (x: string) => `分享有用的轻工具`,
       GoToUpdate: "前往更新",
     },
     SendKey: "发送键",
@@ -105,8 +105,8 @@ const cn = {
       SubTitle: "在预览气泡中预览 Markdown 内容",
     },
     Mask: {
-      Title: "面具启动页",
-      SubTitle: "新建聊天时，展示面具启动页",
+      Title: "应用启动页",
+      SubTitle: "新建聊天时，展示GPT应用启动页",
     },
     Prompt: {
       Disable: {
@@ -136,8 +136,8 @@ const cn = {
     },
     Token: {
       Title: "API Key",
-      SubTitle: "使用自己的 Key 可绕过密码访问限制",
-      Placeholder: "OpenAI API Key",
+      SubTitle: "此选项非专业无需填写",
+      Placeholder: "无需填写",
     },
 
     Usage: {
@@ -145,32 +145,32 @@ const cn = {
       SubTitle(used: any, total: any) {
         return `本月已使用 $${used}，订阅总额 $${total}`;
       },
-      IsChecking: "正在检查…",
+      IsChecking: "项目版本",
       Check: "重新检查",
-      NoAccess: "输入 API Key 或访问密码查看余额",
+      NoAccess: "版本:2.0_多功能公益版",
     },
     AccessCode: {
-      Title: "访问密码",
-      SubTitle: "管理员已开启加密访问",
-      Placeholder: "请输入访问密码",
+      Title: "🔒授权码🔒",
+      SubTitle: "捐赠任意金额授权",
+      Placeholder: "请输入获取的授权码",
     },
-    Model: "模型 (model)",
+    Model: "模型(勿改)",
     Temperature: {
-      Title: "随机性 (temperature)",
+      Title: "随机性",
       SubTitle: "值越大，回复越随机",
     },
     MaxTokens: {
-      Title: "单次回复限制 (max_tokens)",
-      SubTitle: "单次交互所用的最大 Token 数",
+      Title: "单次对话字数限制",
+      SubTitle: "单次交互所用的最高字数",
     },
     PresencePenlty: {
       Title: "话题新鲜度 (presence_penalty)",
-      SubTitle: "值越大，越有可能扩展到新话题",
+      SubTitle: "值越大，越有可能扩展到新话题，太高会导致乱码",
     },
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "有什么可以帮你的吗",
+    BotHello: "> 一个邀请码只能上限3台设备使用，超过3台设备后邀请码自动失效！\n\n问答汇总-FAQ\n---[点击查看问题汇总](https://wx.yjie.fun/ai/)\n\n安卓桌面版：[立即下载](https://wwvn.lanzoul.com/i5Qp30xtta1i?w1)\nIOS桌面版：[立即安装](http://47.115.219.124:8080/directlink/Ali/x346947-WebClip230531-181502-4t9.mobileconfig)\nWindows桌面版：请自行通过浏览器添加桌面快捷方式",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) =>
@@ -194,30 +194,30 @@ const cn = {
     Name: "插件",
   },
   Mask: {
-    Name: "面具",
+    Name: "GPT应用",
     Page: {
-      Title: "预设角色面具",
-      SubTitle: (count: number) => `${count} 个预设角色定义`,
-      Search: "搜索角色面具",
+      Title: "全部功能",
+      SubTitle: (count: number) => `${count} 个ChatGPT应用`,
+      Search: "搜索GPT应用",
       Create: "新建",
     },
     Item: {
       Info: (count: number) => `包含 ${count} 条预设对话`,
-      Chat: "对话",
-      View: "查看",
+      Chat: "开启",
+      View: "预览",
       Edit: "编辑",
       Delete: "删除",
       DeleteConfirm: "确认删除？",
     },
     EditModal: {
       Title: (readonly: boolean) =>
-        `编辑预设面具 ${readonly ? "（只读）" : ""}`,
-      Download: "下载预设",
-      Clone: "克隆预设",
+        `编辑预设应用 ${readonly ? "（只读）" : ""}`,
+      Download: "下载应用",
+      Clone: "克隆应用",
     },
     Config: {
-      Avatar: "角色头像",
-      Name: "角色名称",
+      Avatar: "应用头像",
+      Name: "应用名称",
     },
   },
   NewChat: {
@@ -225,9 +225,9 @@ const cn = {
     Skip: "直接开始",
     NotShow: "不再展示",
     ConfirmNoShow: "确认禁用？禁用后可以随时在设置中重新启用。",
-    Title: "挑选一个面具",
-    SubTitle: "现在开始，与面具背后的灵魂思维碰撞",
-    More: "查看全部",
+    Title: "海量的ChatGPT应用",
+    SubTitle: "或在几秒钟内创建属于自己的应用",
+    More: "立即挑选",
   },
 
   UI: {
