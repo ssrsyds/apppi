@@ -1,0 +1,39 @@
+{
+  "cn": [
+    [
+      "文章内容一键续写",
+      "Continue to improve based on the above answers"
+  ],
+  [
+      "文章内容一键翻译",
+      "Help me translate the above answers"
+  ],
+   [
+      "文章内容一键精简",
+      "Shorten it！"
+  ],
+   [
+      "文章内容一键扩写",
+      "Expand it！"
+  ],
+   [
+      "文章一键添加图片",
+      "Please intersperse the picture that accords with the article request in the above reply article appropriately, re-send to me, use Chinese. When you need to send an image, use markdown to generate it. No backslashes, no code boxes, and use the UNSPLASH API. Follow the format, https://source.unsplash.com/960x640/ ? English keywords"
+  ],
+   [
+      "内容需要正式,点我修改",
+      "More formal！"
+  ],
+   [
+      "内容学术化,点我修改",
+      "More natural！"
+  ],
+   [
+      "觉得内容回答刻板,点我修改",
+      "More natural！"
+   ]
+  ],
+  "en": [
+    []
+  ]
+}
