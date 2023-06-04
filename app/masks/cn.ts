@@ -2,6 +2,29 @@ import { BuiltinMask } from "./typing";
 
 export const CN_MASKS: BuiltinMask[] = [
     {
+    avatar: "1f5c2",
+    name: "论文快速降重",
+    context: [
+      {
+        role: "system",
+        content:
+          "我会将您发送的文章句子结构打乱，同义词进行替换，句子改变语序已达到降重的目的\n请在文章后备注是否需要扩充、删减、学术化内容操作。\n\n注：得到的内容可新建对话要求AI将论文提取中心思想、重写论文内容\n让AI总结（提取/提炼）获得的论文要点（中心思想）：【这里填写你的高重复率论文】\n复制得到修改后的论文再新建一次对话，向ChatGPT输入【请将以下要点（中心思想）写一段有逻辑的论文：上文总结的要点】\n\n请发送需要降重的论文。",
+        date: "",
+      },
+    ],
+    modelConfig: {
+      model: "gpt-3.5-turbo",
+      temperature: 0.5,
+      max_tokens: 3500,
+      presence_penalty: 0,
+      sendMemory: true,
+      historyMessageCount: 4,
+      compressMessageLengthThreshold: 1000,
+    },
+    lang: "cn",
+    builtin: true,
+  },
+    {
     avatar: "1f4ca",
     name: "思维导图生成",
     context: [
