@@ -27,7 +27,7 @@ const cn = {
       if (submitKey === String(SubmitKey.Enter)) {
         inputHints += "，Shift + Enter 换行";
       }
-      return inputHints + "输入 / 自动续写";
+      return inputHints + ".";
     },
     Send: "发送",
     Config: {
