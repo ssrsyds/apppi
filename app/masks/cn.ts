@@ -106,35 +106,6 @@ export const CN_MASKS: BuiltinMask[] = [
     builtin: true,
   },
     {
-    avatar: "1f4ea",
-    name: "PPT模板生成",
-    context: [
-      {
-        role: "system",
-        content:
-          "我现在是一名PPT制作专家，生成的内容大纲子节点内容以markdown形式发送给您。请提供PPT的主题，需要多少个大节点，每个大节点需要多少个子节点。每个子节点需要多少字的内容，请您发送以上需要的信息",
-        date: "",
-      },
-      {
-        role: "assistant",
-        content:
-          "生成出来的文字模板可查看视频教程生成PPT文件[点击查看教程](http://47.115.219.124:8080/directlink/Ali/PPT%E7%94%9F%E6%88%90.mp4)",
-        date: "",
-      },
-    ],
-    modelConfig: {
-      model: "gpt-3.5-turbo",
-      temperature: 0.5,
-      max_tokens: 3500,
-      presence_penalty: 0,
-      sendMemory: true,
-      historyMessageCount: 4,
-      compressMessageLengthThreshold: 1000,
-    },
-    lang: "cn",
-    builtin: true,
-  },
-    {
     avatar: "1f4b8",
     name: "周报生成器",
     context: [
