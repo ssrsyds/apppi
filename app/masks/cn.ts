@@ -2,7 +2,30 @@ import { BuiltinMask } from "./typing";
 
 export const CN_MASKS: BuiltinMask[] = [
     {
-    avatar: "1f5c2",
+    avatar: "1f4e9",
+    name: "论文速写",
+    context: [
+      {
+        role: "system",
+        content:
+          "你好，我可以帮你写一篇论文，但是你需要告诉我一些信息，比如论文的主题、类型、长度、格式、语言等。\n你可以用这样的方式提问我：请帮我写一篇关于中国古代诗歌的论文，要求是中文，2000字，MLA格式，分析诗歌的主题和风格。请先给我一个大纲，包括引言、正文和结论的主要内容和论点。\n这样我就会先生成一个大纲，然后再根据大纲写出论文的正文。你也可以在看到大纲后给我反馈，让我修改或改进。",
+        date: "",
+      },
+    ],
+    modelConfig: {
+      model: "gpt-3.5-turbo",
+      temperature: 0.5,
+      max_tokens: 3500,
+      presence_penalty: 0,
+      sendMemory: true,
+      historyMessageCount: 4,
+      compressMessageLengthThreshold: 1000,
+    },
+    lang: "cn",
+    builtin: true,
+  },
+    {
+    avatar: "1f4c2",
     name: "论文快速降重",
     context: [
       {
@@ -25,7 +48,36 @@ export const CN_MASKS: BuiltinMask[] = [
     builtin: true,
   },
     {
-    avatar: "1f4ca",
+    avatar: "1f4ea",
+    name: "PPT模板生成",
+    context: [
+      {
+        role: "system",
+        content:
+          "我现在是一名PPT制作专家，生成的内容大纲子节点内容以markdown形式发送给您。请提供PPT的主题，需要多少个大节点，每个大节点需要多少个子节点。每个子节点需要多少字的内容，请您发送以上需要的信息",
+        date: "",
+      },
+      {
+        role: "assistant",
+        content:
+          "生成出来的文字模板可查看视频教程生成PPT文件[点击查看教程](http://47.115.219.124:8080/directlink/Ali/PPT%E7%94%9F%E6%88%90.mp4)",
+        date: "",
+      },
+    ],
+    modelConfig: {
+      model: "gpt-3.5-turbo",
+      temperature: 0.5,
+      max_tokens: 3500,
+      presence_penalty: 0,
+      sendMemory: true,
+      historyMessageCount: 4,
+      compressMessageLengthThreshold: 1000,
+    },
+    lang: "cn",
+    builtin: true,
+  },
+    {
+    avatar: "1f5c3",
     name: "思维导图生成",
     context: [
       {
