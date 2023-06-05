@@ -23,11 +23,11 @@ const cn = {
     Rename: "重命名对话",
     Typing: "正在输入ing…",
     Input: (submitKey: string) => {
-      var inputHints = `${submitKey} 发送`;
+      var inputHints = `输入/激活快捷指令`;
       if (submitKey === String(SubmitKey.Enter)) {
         inputHints += "，Shift + Enter 换行";
       }
-      return inputHints + "输入/快捷指令";
+      return inputHints + "";
     },
     Send: "发送",
     Config: {
