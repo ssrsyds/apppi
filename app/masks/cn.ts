@@ -3,7 +3,7 @@ import { BuiltinMask } from "./typing";
 export const CN_MASKS: BuiltinMask[] = [
     {
     avatar: "1f4c4",
-    name: "VIP影视快捷爬取",
+    name: "VIP影视快捷观看",
     context: [
       {
         role: "system",
@@ -14,7 +14,7 @@ export const CN_MASKS: BuiltinMask[] = [
       {
         role: "assistant",
         content:
-          "请帮我查找【你想看的影片】的免费观影地址\n例如：请帮我查找流浪地球2的免费观影地址",
+          "请帮我查找【你想看的影片】的免费观影地址\n例1:请帮我查找流浪地球2的免费观影地址\n\n例2:请帮我查找流浪地球的无广告免费观影地址",
         date: "",
       }, 
     ],
