@@ -2,6 +2,35 @@ import { BuiltinMask } from "./typing";
 
 export const CN_MASKS: BuiltinMask[] = [
     {
+    avatar: "1f9ea",
+    name: "VIP影视快捷爬取",
+    context: [
+      {
+        role: "system",
+        content:
+          "我可以为您爬取全网VIP超清影视供您免费观看\n使用此功能前请点击下方WiFi图标\n转为蓝色既联网开启，发送你想看的电影电视剧即可\n注意：联网功能开启每提问一次为一次新的对话，不支持上下文对话，请在不使用的时候关闭联网功能",
+        date: "",
+      },
+      {
+        role: "assistant",
+        content:
+          "请帮我查找【你想看的影片】的免费观影地址\n例如：请帮我查找流浪地球2的免费观影地址",
+        date: "",
+      }, 
+    ],
+    modelConfig: {
+      model: "gpt-3.5-turbo",
+      temperature: 0.5,
+      max_tokens: 3500,
+      presence_penalty: 0,
+      sendMemory: true,
+      historyMessageCount: 4,
+      compressMessageLengthThreshold: 1000,
+    },
+    lang: "cn",
+    builtin: true,
+  },
+    {
     avatar: "1f4e9",
     name: "论文速写",
     context: [
