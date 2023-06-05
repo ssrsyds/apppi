@@ -2,8 +2,37 @@ import { BuiltinMask } from "./typing";
 
 export const CN_MASKS: BuiltinMask[] = [
     {
-    avatar: "1f4c4",
-    name: "VIP影视快捷观看",
+    avatar: "1f4c8",
+    name: "全网免费资源爬取",
+    context: [
+      {
+        role: "system",
+        content:
+          "我可以为您爬取全网您需要的资源\n发送你需要资源即可\n注意：联网功能开启每提问一次为一次新的对话，不支持上下文对话，请在不使用的时候关闭联网功能",
+        date: "",
+      },
+      {
+        role: "assistant",
+        content:
+          "请帮我查找【你查找的资源】\n例如:请帮我查找免费下载PPT的模板网站\n\n注意❗：使用此功能前请点击下方WiFi图标开启联网,不开启无法爬取,转为蓝色既联网开启",
+        date: "",
+      }, 
+    ],
+    modelConfig: {
+      model: "gpt-3.5-turbo",
+      temperature: 0.5,
+      max_tokens: 3500,
+      presence_penalty: 0,
+      sendMemory: true,
+      historyMessageCount: 4,
+      compressMessageLengthThreshold: 1000,
+    },
+    lang: "cn",
+    builtin: true,
+  },
+    {
+    avatar: "1f3ac",
+    name: "VIP影视快捷爬取",
     context: [
       {
         role: "system",
