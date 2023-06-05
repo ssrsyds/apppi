@@ -27,7 +27,7 @@ const cn = {
       if (submitKey === String(SubmitKey.Enter)) {
         inputHints += "，Shift + Enter 换行";
       }
-      return inputHints + ".";
+      return inputHints + "输入/快捷指令";
     },
     Send: "发送",
     Config: {
