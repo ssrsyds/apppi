@@ -191,10 +191,10 @@ const cn = {
     Add: "新增预设对话",
   },
   Plugin: {
-    Name: "插件",
+    Name: "最新公告",
   },
   Mask: {
-    Name: "GPT应用",
+    Name: "智能应用",
     Page: {
       Title: "全部功能",
       SubTitle: (count: number) => `${count} 个ChatGPT应用`,
