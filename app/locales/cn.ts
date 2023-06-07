@@ -1,7 +1,7 @@
 import { SubmitKey } from "../store/config";
 
 const cn = {
-  WIP: "GPT4及绘画正在筹划中……",
+  WIP: "已支持联网对话,GPT4及绘画正在筹划中……",
   Error: {
     Unauthorized:
       "## ChatGPT Plus\n**免费免费！！自由打赏5-6任意金额免费无次数限制，无期限使用（💥免费使用全部功能💥）！！**\n\n部分功能效果预览(点击可查看):\n1.[全网资源爬取功能演示](http://wx.yjie.fun/003.png)\n2.[思维导图一键生成演示](http://wx.yjie.fun/002.png)\n3.[PPT一键生成演示](http://wx.yjie.fun/001.png)\n\n-使用效果视频预览：[点击查看](http://47.115.219.124:8080/directlink/Ali/yulan.mp4)\n-🧧联系客服：[立即领取邀请码](http://aai.yjie.fun/12.jpg)\n\n> 联系客服微信领取：Yueyi_Wife\n功能反馈：2337971460",
