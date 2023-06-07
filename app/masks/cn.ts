@@ -3,7 +3,7 @@ import { BuiltinMask } from "./typing";
 export const CN_MASKS: BuiltinMask[] = [
     {
     avatar: "1f4c8",
-    name: "全网隐藏资源爬取",
+    name: "互联网隐藏资源爬取",
     context: [
       {
         role: "system",
