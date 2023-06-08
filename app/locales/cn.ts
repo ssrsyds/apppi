@@ -71,9 +71,9 @@ const cn = {
       All: "所有语言",
       Options: {
         cn: "简体中文",
-        //en: "English",
-        //tw: "繁體中文",
-        //es: "Español",
+        en: "English",
+        tw: "繁體中文",
+        es: "Español",
         it: "Italiano",
         tr: "Türkçe",
         jp: "日本語",
