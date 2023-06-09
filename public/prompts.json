@@ -17,7 +17,7 @@
       "Expand it！"
   ],
    [
-      "文章一键添加图片",
+      "文章内容一键图配文",
       "Please intersperse the picture that accords with the article request in the above reply article appropriately, re-send to me, use Chinese. When you need to send an image, use markdown to generate it. No backslashes, no code boxes, and use the UNSPLASH API. Follow the format, https://source.unsplash.com/960x640/ ? English keywords"
   ],
    [
