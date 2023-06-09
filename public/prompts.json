@@ -2,7 +2,7 @@
   "cn": [
     [
       "一键续写",
-      "Continue to improve and write based on the above answers, using the language you used when replying to me"
+      "Continue to improve and write based on the above answers, using Chinese"
   ],
   [
       "一键翻译",
@@ -22,7 +22,7 @@
   ],
    [
       "文章快捷配图",
-      "Please help me select the image that meets the requirements of the article in your reply. Please send me the selected image and reply in Chinese. When you need to send an image, use tags to generate the image. No backslashes, no code boxes, use the UNSPLASH API. According to this format, https://source.unsplash.com/960x640/ ? English keywords"
+      "Please insert appropriate pictures that match the content of the article based on your answer above, and then send me the pictures you want to insert. The article content is no longer needed, please reply in Chinese. When you need to send pictures, please use markdown language to generate them, without Backslash or code box. When you need to use the unsplash API, follow the format below, https://source.unsplash.com/960x640/? Do not use code blocks for English keywords. Once you understand, reply and receive"
   ]
   ],
   "en": [
