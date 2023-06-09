@@ -1,37 +1,37 @@
 {
   "cn": [
     [
-      "文章内容一键续写",
-      "Continue to improve based on the above answers"
+      "一键·续写",
+      "Continue to improve and continue writing based on the above answers"
+  ],
+    [
+      "一键·总结",
+      "Please help me summarize the content you replied to me in the language you used when replying to me"
   ],
   [
-      "文章内容一键翻译",
+      "一键·翻译",
       "Help me translate the above answers"
   ],
    [
-      "文章内容一键精简",
+      "一键·精简",
       "Shorten it！"
   ],
    [
-      "文章内容一键扩写",
+      "一键·扩写",
       "Expand it！"
   ],
    [
-      "文章内容一键图配文",
-      "Please intersperse the picture that accords with the article request in the above reply article appropriately, re-send to me, use Chinese. When you need to send an image, use markdown to generate it. No backslashes, no code boxes, and use the UNSPLASH API. Follow the format, https://source.unsplash.com/960x640/ ? English keywords"
+      "一键·配图",
+      "Please help me select images that meet the requirements of the article in the above article you replied to. Please send me the selected images. When you need to send an image, use tags to generate the image. No backslashes, no code boxes, and use the UNSPLASH API. According to the format, https://source.unsplash.com/960x640/ ? English keywords"
   ],
    [
-      "内容需要正式,点我修改",
+      "一键·正式",
       "More formal！"
   ],
    [
-      "内容学术化,点我修改",
+      "一键学术化",
       "More natural！"
-  ],
-   [
-      "觉得内容回答刻板,点我修改",
-      "More natural！"
-   ]
+  ]
   ],
   "en": [
     []
