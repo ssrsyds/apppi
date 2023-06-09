@@ -1,36 +1,28 @@
 {
   "cn": [
     [
-      "一键·续写",
+      "一键续写",
       "Continue to improve and continue writing based on the above answers"
   ],
-    [
-      "一键·总结",
-      "Please help me summarize the content you replied to me in the language you used when replying to me"
-  ],
   [
-      "一键·翻译",
+      "一键翻译",
       "Help me translate the above answers"
   ],
+    [
+      "一键总结",
+      "Please help me summarize the content you replied to me in the language you used when replying to me"
+  ],
    [
-      "一键·精简",
+      "文章一键精简",
       "Shorten it！"
   ],
    [
-      "一键·扩写",
+      "文章一键扩写",
       "Expand it！"
   ],
    [
-      "一键·配图",
+      "文章快捷配图",
       "Please help me select images that meet the requirements of the article in the above article you replied to. Please send me the selected images. When you need to send an image, use tags to generate the image. No backslashes, no code boxes, and use the UNSPLASH API. According to the format, https://source.unsplash.com/960x640/ ? English keywords"
-  ],
-   [
-      "一键·正式",
-      "More formal！"
-  ],
-   [
-      "一键学术化",
-      "More natural！"
   ]
   ],
   "en": [
