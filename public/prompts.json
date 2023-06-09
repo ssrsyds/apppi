@@ -22,7 +22,7 @@
   ],
    [
       "文章快捷配图",
-      "Please help me select images that meet the requirements of the article in the above article you replied to. Please send me the selected images. When you need to send an image, use tags to generate the image. No backslashes, no code boxes, and use the UNSPLASH API. According to the format, https://source.unsplash.com/960x640/ ? English keywords"
+      "Please help me select the image that meets the requirements of the article in your reply. Please send me the selected image and reply in Chinese. When you need to send an image, use tags to generate the image. No backslashes, no code boxes, use the UNSPLASH API. According to this format, https://source.unsplash.com/960x640/ ? English keywords"
   ]
   ],
   "en": [
