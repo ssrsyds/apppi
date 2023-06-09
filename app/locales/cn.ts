@@ -4,7 +4,7 @@ const cn = {
   WIP: "已支持联网对话,GPT4及绘画正在筹划中……",
   Error: {
     Unauthorized:
-      "## ChatGPT Plus\n**限时免费体验所有功能！！\n截止时间:2023/6/10 22:00\n\n共享版临时设备授权码:2337971460**",
+      "## ChatGPT Plus\n限时免费体验所有功能！！\n截止时间:2023/6/10 22:00\n\n共享版临时设备授权码:2337971460",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 条对话`,
