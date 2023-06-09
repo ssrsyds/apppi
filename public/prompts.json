@@ -20,6 +20,10 @@
       "文章一键扩写",
       "Expand it！"
   ],
+    [
+      "文章一键润色",
+      "Polish the paragraph above to make it more logical, and academic！"
+  ],
    [
       "文章快捷配图",
       "Please insert appropriate pictures that match the content of the article based on your answer above, and then send me the pictures you want to insert. The article content is no longer needed, please reply in Chinese. When you need to send pictures, please use markdown language to generate them, without Backslash or code box. When you need to use the unsplash API, follow the format below, https://source.unsplash.com/960x640/? Do not use code blocks for English keywords. Once you understand, reply and receive"
