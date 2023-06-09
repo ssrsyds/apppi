@@ -2,7 +2,7 @@
   "cn": [
     [
       "一键续写",
-      "Continue to improve and continue writing based on the above answers"
+      "Continue to improve and write based on the above answers, using the language you used when replying to me"
   ],
   [
       "一键翻译",
@@ -10,7 +10,7 @@
   ],
     [
       "一键总结",
-      "Please help me summarize the content you replied to me in the language you used when replying to me"
+      "Please help me summarize the content you replied to me in Chinese"
   ],
    [
       "文章一键精简",
