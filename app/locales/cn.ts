@@ -191,7 +191,7 @@ const cn = {
     Add: "新增预设对话",
   },
   Plugin: {
-    Name: "About",
+    Name: "Plugin",
   },
   Mask: {
     Name: "APP Store",
