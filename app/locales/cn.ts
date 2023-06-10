@@ -170,7 +170,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "> 联网问答开启方法:点击下方WIFI按钮变蓝即为开启状态\n\n注意：联网开启后每一次提问都是新的对话，不支持上下文联想,不使用时请手动关闭！\n\n安卓/IOS桌面版下载-FAQ\n---[立即前往](http://aai.yjie.fun/app/)\n\n官方内部问题建议反馈QQ交流群：[立即添加](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=SZWCT9lRi-9L43O_4ocdvgXXoUArkd62&authKey=Bp3sv0UcCwdadtRygcU2%2FhiitYliYDSCirZ4V5MGqgAs2moYdiXSCE0JA1lWERE6&noverify=0&group_code=805410048)",
+    BotHello: "> 联网问答开启方法:点击下方WIFI按钮变蓝即为开启状态\n\n注意：联网开启后每一次提问都是新的对话，不支持上下文联想,不使用时请手动关闭！\n\n安卓/IOS桌面版下载-FAQ\n---[立即前往](http://aai.yjie.fun/app/)\n\n官方内部问题建议反馈QQ交流群：[立即扫码添加](https://wx.yjie.fun/qq.jpg)",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) =>
