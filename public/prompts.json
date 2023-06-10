@@ -6,11 +6,11 @@
   ],
   [
       "一键翻译",
-      "Help me translate the above answers"
+      "Please translate the last content you gave me (just translate it directly, without too much explanation)"
   ],
     [
       "一键总结",
-      "Please help me summarize the content you replied to me in Chinese"
+      "Please summarize this sentence"
   ],
    [
       "文章一键精简",
@@ -22,7 +22,7 @@
   ],
     [
       "文章一键润色",
-      "Polish the paragraph above to make it more logical, and academic！"
+      "Refine the paragraph above to make it more logical and academic, using Chinese"
   ],
    [
       "文章快捷配图",
