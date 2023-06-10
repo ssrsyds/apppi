@@ -210,7 +210,7 @@ export const CN_MASKS: BuiltinMask[] = [
     builtin: true,
   },
  {
-    avatar: "1f5a5",
+    avatar: "1f4c0",
     name: "SWOT分析",
     context: [
       {
@@ -233,7 +233,7 @@ export const CN_MASKS: BuiltinMask[] = [
     builtin: true,
   },
 {
-    avatar: "1f5b1",
+    avatar: "1f963",
     name: "Excel公式助手",
     context: [
       {
@@ -348,7 +348,7 @@ export const CN_MASKS: BuiltinMask[] = [
     builtin: true,
   },
 {
-    avatar: "1f58a",
+    avatar: "1f4a1",
     name: "稿件校对助手",
     context: [
       {
@@ -417,7 +417,7 @@ export const CN_MASKS: BuiltinMask[] = [
     builtin: true,
   },
 {
-    avatar: "1f579",
+    avatar: "1f4dd",
     name: "辩论赛立论助手",
     context: [
       {
@@ -440,7 +440,7 @@ export const CN_MASKS: BuiltinMask[] = [
     builtin: true,
   },
 {
-    avatar: "1f5a5",
+    avatar: "1f453",
     name: "科技行业百科",
     context: [
       {
