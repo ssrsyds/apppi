@@ -51,7 +51,7 @@ const cn = {
     ResetConfirm: "重置后将清空当前对话记录以及历史摘要，确认重置？",
   },
   Home: {
-    NewChat: "新的聊天",
+    NewChat: "New Chat",
     DeleteChat: "确认删除选中的对话？",
     DeleteToast: "已删除会话",
     Revert: "撤销",
@@ -115,7 +115,7 @@ const cn = {
       },
       List: "自定义快捷指令",
       ListCount: (builtin: number, custom: number) =>
-        `内置 ${builtin} 条，用户定义 ${custom} 条`,
+        `内置 ${builtin} 条，自定义 ${custom} 条`,
       Edit: "编辑",
       Modal: {
         Title: "快捷指令列表",
@@ -169,7 +169,7 @@ const cn = {
     },
   },
   Store: {
-    DefaultTopic: "新的聊天",
+    DefaultTopic: "New Chat",
     BotHello: "> 联网问答开启方法:点击下方WIFI按钮变蓝即为开启状态\n\n注意：联网开启后每一次提问都是新的对话，不支持上下文联想,不使用时请手动关闭！\n\n安卓/IOS桌面版下载\n---[立即前往](http://aai.yjie.fun/app/)\n\n🎊官方内部问题建议反馈QQ交流群：[立即扫码添加](https://wx.yjie.fun/qq.jpg)",
     Error: "出错了，稍后重试吧",
     Prompt: {
@@ -227,7 +227,7 @@ const cn = {
     ConfirmNoShow: "确认禁用？禁用后可以随时在设置中重新启用。",
     Title: "海量的ChatGPT应用",
     SubTitle: "或在几秒钟内创建属于自己的应用",
-    More: "立即挑选",
+    More: "选择应用",
   },
 
   UI: {
