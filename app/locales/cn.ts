@@ -170,7 +170,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "New Chat",
-    BotHello: "> 联网问答:点击下方WIFI按钮变蓝即为开启状态。注意：联网开启后每一次提问都是新的对话，不支持上下文联想,不使用时请手动关闭！\n\n安卓/IOS桌面版下载：[立即前往](http://aai.yjie.fun/app/)\n\n作为一名智能助理，ChatPlus坚持遵守法律和道德规范，提供客观、中立的回答，不会涉及到任何敏感或不当内容，也不会引导做出激烈或危险的行为。我们相信，ChatGPT Plus的上线将极大地方便广大师生员工的学习和工作，在智能化时代展现我们的创新精神和智慧风范！",
+    BotHello: "> 使用需知/功能投稿：[立即前往](https://support.qq.com/product/589420)\n\n您好,有什么可以帮助你的吗？",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) =>
