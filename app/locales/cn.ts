@@ -170,7 +170,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "New Chat",
-    BotHello: "> 使用需知/功能投稿：[立即前往](https://support.qq.com/product/589420)\n\n您好,有什么可以帮助你的吗？",
+    BotHello: "> 使用需知/功能投稿:[立即前往](https://support.qq.com/product/589420)\n\n您好,有什么可以帮助你的吗？",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) =>
