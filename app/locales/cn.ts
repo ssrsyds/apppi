@@ -170,7 +170,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "New Chat",
-    BotHello: "> 使用需知/功能投稿:[立即前往](https://support.qq.com/product/589420)\n\n尊贵的内部人员,您好！有什么可以帮助你的吗？",
+    BotHello: "> 使用需知/功能投稿:[立即前往](https://support.qq.com/product/589420)\n授权码可授权三台设备使用,超过后检测到异常授权既判定授权码立即失效\n\n尊贵的内部人员,您好！有什么可以帮助你的吗？",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) =>
