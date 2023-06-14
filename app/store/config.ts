@@ -78,16 +78,16 @@ export const ALL_MODELS = [
     available: true,
   },
   {
-    name: "qwen-v1", // 通义千问
-    available: false,
+    name: "gpt-3.5-turbo-0613", // 通义千问
+    available: true,
   },
   {
-    name: "ernie", // 文心一言
-    available: false,
+    name: "gpt-3.5-turbo-16k-0613", // 文心一言
+    available: true,
   },
   {
-    name: "spark", // 讯飞星火
-    available: false,
+    name: "gpt-3.5-turbo-16k", // 讯飞星火
+    available: true,
   },
   {
     name: "llama", // llama
