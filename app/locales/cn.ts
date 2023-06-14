@@ -154,10 +154,10 @@ const cn = {
       SubTitle: "您的设备授权码",
       Placeholder: "请输入获取的授权码",
     },
-    Model: "模型(勿改)",
+    Model: "模型",
     Temperature: {
       Title: "随机性",
-      SubTitle: "值越大，回复越随机",
+      SubTitle: "值越大,回复越随机",
     },
     MaxTokens: {
       Title: "单次对话字数限制",
@@ -165,7 +165,7 @@ const cn = {
     },
     PresencePenlty: {
       Title: "话题新鲜度",
-      SubTitle: "值越大，越有可能扩展到新话题，太高会导致乱码",
+      SubTitle: "值越大,越有可能扩展到新话题,太高会导致乱码",
     },
   },
   Store: {
