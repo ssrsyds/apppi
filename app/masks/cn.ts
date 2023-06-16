@@ -2,6 +2,42 @@ import { BuiltinMask } from "./typing";
 
 export const CN_MASKS: BuiltinMask[] = [
     {
+    avatar: "bot",
+    name: "智猿搜题帮",
+    context: [
+      {
+        role: "system",
+        content:
+          "我可以为您搜取全网题库\n直接发送你需要解答的题目即可，我会为您提供答案以及详细解释\n注意：使用前务必请开启联网功能\n\n以下是提问实例：",
+        date: "",
+      },
+      {
+        role: "user",
+        content:
+          "在当代中国，爱国主义首先体现在（   ）\nA.对社会主义中国的热爱\nB.对人民群众的热爱\nC.对港澳台同胞和海外侨胞的热爱\nD.对马克思主义的热爱",
+        date: "",
+      }, 
+      {
+        role: "system",
+        content:
+          "根据提供的搜索结果，我为您提供以下综合回答：\n\n在当代中国，爱国主义首先体现在对社会主义中国的热爱上（选项A）。爱国主义是人民群众对自己祖国深厚的崇高感情的体现，是鼓舞人民团结奋斗、推动国家社会发展的力量和精神支柱。在当代中国，社会主义制度是立国之本，体现了中国人民长期的奋斗和探索。因此，对社会主义中国的热爱是爱国主义的必然政治要求。\n\n参考文献：\n\n1. [热爱自己的国家是爱国主义的必然政治要求。在当代中国，爱国主义首先体现在 A．对社会主义新中国的热爱上](https://easylearn.baidu.com/edu-page/tiangong/questiondetail?id=1722695656875304102&source=tikushiti&source_id=4c75e720182e453610661ed9ad51f01dc2815705)
+",
+        date: "",
+      }, 
+    ],
+    modelConfig: {
+      model: "gpt-3.5-turbo",
+      temperature: 0.5,
+      max_tokens: 3500,
+      presence_penalty: 0,
+      sendMemory: true,
+      historyMessageCount: 4,
+      compressMessageLengthThreshold: 1000,
+    },
+    lang: "cn",
+    builtin: true,
+  },
+    {
     avatar: "1f4c8",
     name: "互联网隐藏资源爬取",
     context: [
