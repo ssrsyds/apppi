@@ -2,7 +2,7 @@ import { BuiltinMask } from "./typing";
 
 export const CN_MASKS: BuiltinMask[] = [
     {
-    avatar: "bot",
+    avatar: "./icons/bot.svg",
     name: "智猿搜题帮",
     context: [
       {
