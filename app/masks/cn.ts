@@ -2,6 +2,29 @@ import { BuiltinMask } from "./typing";
 
 export const CN_MASKS: BuiltinMask[] = [
     {
+    avatar: "1f4dc",
+    name: "荒岛生存模拟器",
+    context: [
+      {
+        role: "system",
+        content:
+          "你乘着一艘豪华游轮在太平洋度假，游轮却因风高浪急倾覆……幸运的是你被海浪冲到了一个无人荒岛上，现在你要凭借自己的聪明才智存活下来….你现在身无一物，幸好一块桌布被冲上了岸，你要用它：搭帐篷or当被子",
+        date: "",
+      },
+    ],
+    modelConfig: {
+      model: "gpt-3.5-turbo-16k",
+      temperature: 0.5,
+      max_tokens: 15000,
+      presence_penalty: 0,
+      sendMemory: true,
+      historyMessageCount: 4,
+      compressMessageLengthThreshold: 1000,
+    },
+    lang: "cn",
+    builtin: true,
+  },
+    {
     avatar: "1f50d",
     name: "智猿搜题帮",
     context: [
@@ -31,9 +54,9 @@ export const CN_MASKS: BuiltinMask[] = [
       }, 
     ],
     modelConfig: {
-      model: "gpt-3.5-turbo",
+      model: "gpt-3.5-turbo-16k",
       temperature: 0.5,
-      max_tokens: 3500,
+      max_tokens: 15000,
       presence_penalty: 0,
       sendMemory: true,
       historyMessageCount: 4,
