@@ -1,7 +1,6 @@
 import { BuiltinMask } from "./typing";
 
 export const CN_MASKS: BuiltinMask[] = [
-     [
     {
     avatar: "1f60a",
     name: "穿越种田模拟器",
