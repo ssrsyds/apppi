@@ -18,7 +18,7 @@ export const CN_MASKS: BuiltinMask[] = [
       max_tokens: 15000,
       presence_penalty: 1.7,
       sendMemory: true,
-      historyMessageCount: 4,
+      historyMessageCount: 25,
       compressMessageLengthThreshold: 1000,
     },
     lang: "cn",
