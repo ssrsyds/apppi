@@ -4,7 +4,7 @@ const cn = {
   WIP: "已支持联网对话,GPT4打赏用户已开放无限制使用",
   Error: {
     Unauthorized:
-      "## ChatGPT公益项目\n**关注公众号免费体验此产品发送[获取公用邀请码],收到邀请码后即可体验**\nGPT4模型:[立即访问使用](https://app.yjie.fun/),注意:GPT4模型仅打赏用户5-10元用户可无限制使用\n\n![](https://wx.yjie.fun/gzh.png)",
+      "## ChatGPT公益项目\n**关注公众号免费体验此产品发送[获取公用邀请码],收到邀请码后即可体验**\n\nGPT4模型:[立即访问使用](https://app.yjie.fun/),注意:GPT4模型仅打赏用户5-10元用户可无限制使用\n\n![](https://wx.yjie.fun/gzh.png)",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 条对话`,
