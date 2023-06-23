@@ -4,7 +4,7 @@ const cn = {
   WIP: "已支持联网对话,GPT4已开放无限制使用",
   Error: {
     Unauthorized:
-      "## ChatGPT\n**微信自由打赏5-10元任意金额无时间次数限制提问,可使用GPT4模型\n\n功能:可制作PPT,思维导图,论文速写,论文降重,搜题,查找互联网隐藏资源等功能...**\n\n添加客服微信：[点击扫码打赏](http://aai.yjie.fun/12.jpg)",
+      "## ChatGPT\n**微信自由打赏5-10元任意金额即可无时间次数限制提问,可使用GPT4模型\n\n功能:可制作PPT,思维导图,论文速写,论文降重,搜题,查找互联网隐藏资源等功能...**\n\n添加客服微信：[点击扫码打赏](http://aai.yjie.fun/12.jpg)",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 条对话`,
