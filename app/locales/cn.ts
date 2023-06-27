@@ -4,7 +4,7 @@ const cn = {
   WIP: "已支持联网对话,GPT4绘画插件等功能待开放...",
   Error: {
     Unauthorized:
-      "## ChatGPT Plus多功能联网版\n微信自由打赏5-10元任意金额即可无时间次数限制提问,可使用GPT4模型\n\n功能介绍:可制作PPT,思维导图,论文速写,论文降重,搜题,查找互联网隐藏资源等功能...\n\n部分效果预览:[立即查看](http://47.115.219.124:8080/directlink/Ali/yulan.mp4)\n\n添加客服微信：[点击领取邀请码](http://aai.yjie.fun/12.jpg)",
+      "## ChatGPT Plus多功能联网版\n微信自由打赏5-10元任意金额即可无时间次数限制提问\n\n功能介绍:可制作PPT,思维导图,论文速写,论文降重,搜题,查找互联网隐藏资源等功能...\n\n部分效果预览:[立即查看](http://47.115.219.124:8080/directlink/Ali/yulan.mp4)\n\n添加客服微信：[点击领取邀请码](http://aai.yjie.fun/12.jpg)",
   },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} 条对话`,
