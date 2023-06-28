@@ -90,8 +90,8 @@ export const ALL_MODELS = [
     available: true,
   },
   {
-    name: "llama", // llama
-    available: false,
+    name: "text-davinci-002-render-sha-mobile", // llama
+    available: true,
   },
   {
     name: "chatglm", // chatglm-6b
