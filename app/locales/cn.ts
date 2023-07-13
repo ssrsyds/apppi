@@ -135,19 +135,19 @@ const cn = {
       SubTitle: "当未压缩的历史消息超过该值时，将进行压缩",
     },
     Token: {
-      Title: "API Key",
-      SubTitle: "此选项非专业无需填写",
-      Placeholder: "无需填写",
+      Title: "API Key(非必填)",
+      SubTitle: "填写自己的key可免密使用",
+      Placeholder: "您的token,sk-xxxx",
     },
 
     Usage: {
       Title: "项目版本",
       SubTitle(used: any, total: any) {
-        return `版本:毫秒级响应联网版`;
+        return `已暂停使用`;
       },
       IsChecking: "项目版本",
       Check: "重新检查",
-      NoAccess: "版本:毫秒级响应联网版",
+      NoAccess: "已暂停使用",
     },
     AccessCode: {
       Title: "🔒授权码🔒",
